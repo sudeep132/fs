@@ -52,7 +52,7 @@ void displayfile()
         getch(); 
         exit(1); 
     }
-    printf("rrn\tname\t\tusn\t\tage\t\tsem\t\tbra nch\n"); 
+    printf("rrn\tname\t\tusn\t\tage\t\tsem\t\tbranch\n"); 
     while(!file.eof()) 
     { 
         file.getline(rrn,4,'|'); 
